@@ -160,4 +160,4 @@ with gr.Blocks() as nebula_base:
 demo = gr.TabbedInterface([frac_base, lyapunov, nebula_base], ["Mandelbrot Set", "Markus-Lyapunov Fractal", "Buddhabrot with Nebula Coloring"])
 
 
-demo.launch(share=True)
+demo.launch()
